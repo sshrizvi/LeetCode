@@ -1,1 +1,1 @@
-![INITIAL](Snapshots\9 - Palindrome Number (Initial).png)
+![INITIAL!](Snapshots\logic.png)
