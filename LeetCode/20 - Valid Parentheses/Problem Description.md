@@ -35,21 +35,6 @@ Constraints:
 > To be honest I am not able to solve the problem. I checked the solutions, read the algorithms and then tried to code this.
 
 ![My Solution](https://github.com/sshrizvi/LeetCode/assets/89008579/8175a75c-4878-4812-a162-4f3f0a453cb8)
-```
-def isValid(s: str) -> bool:
-    stack = []
-    for bracket in s:
-        if bracket in '({[':
-            stack.append(bracket)
-        else:
-            if stack == [] \
-                or (bracket == ')' and stack[-1] != '(') \
-                or (bracket == '}' and stack[-1] != '{') \
-                or (bracket == ']' and stack[-1] != '[') :
-                return False
-            stack.pop()
-    return not stack
-```
 
 ### Optimized Solution
 
